@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo
+{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active
+{
+    color: salmon;
+}
+
+.home
+{
+    height: 100vh;
+    background: linear-gradient(-90deg, #66CDAA 65%,white 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-image
+{
+    width: 700px;
+    height: 700px;
+    background: aquamarine;
+    border-radius: 50%;
+    border: 25px solid white;
+}
+
+.home-image img
+{
+    position: relative;
+    bottom: 5px;
+    max-width: 500px;
+    margin-left: 60px;
+}
+
+.home-content
+{
+    max-width: 600px;
+    color: white;
+    text-align: right;
+}
+
+.home-content h1
+{
+    font-size: 55px;
+    line-height: 1.2;
+}
+.home-content h3
+{
+    font-size: 40px;
+    color: #F0E68C;
+}
+
