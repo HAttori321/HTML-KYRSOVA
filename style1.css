@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *
 {
     margin:0px;
@@ -57,7 +58,7 @@ input:focus, textarea:focus
     outline: none;
     box-shadow: 0 0 8px #bbb;
 }
-button
+.button
 {
     display: inline-block;
     padding: 12px 24px;
@@ -66,7 +67,7 @@ button
     transition: 0.3s ease;
     border-radius: 20px;
 }
-button.hover
+.button.hover
 {
     background-color: brown;
 }
@@ -90,3 +91,4 @@ button.hover
     color: salmon;
     margin-right: 10px;
 }
+
